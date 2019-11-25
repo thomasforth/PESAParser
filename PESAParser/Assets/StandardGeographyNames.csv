@@ -1,0 +1,39 @@
+Name,StandardName,GeoCode
+North East,North East,UKC
+North West,North West,UKD
+Yorkshire and Humberside,Yorkshire and the Humber,UKE
+Yorkshire and the Humber,Yorkshire and the Humber,UKE
+East,East,UKH
+East Midlands,East Midlands,UKF
+West Midlands,West Midlands,UKG
+South West,South West,UKK
+Eastern,East,UKH
+London,London,UKI
+South East,South East,UKJ
+England,England,
+Scotland,Scotland,UKM
+Wales,Wales,UKL
+Northern Ireland,Northern Ireland,UKN
+UK current identifiable expenditure,UK current identifiable expenditure,
+Outside the UK,Outside UK,UKZ
+Total current identifiable expenditure,Total current identifiable expenditure,
+Non-identifiable spending,Not identifiable,
+Total current expenditure on services,Total current expenditure on services,
+UK identifiable expenditure,UK identifiable expenditure,
+Total identifiable expenditure,Total identifiable expenditure,
+Total expenditure on services,Total expenditure on services,
+UK capital identifiable expenditure,UK capital identifiable expenditure,
+Total capital identifiable expenditure,Total capital identifiable expenditure,
+Total capital expenditure on services,Total capital expenditure on services,
+ENGLAND_North East,North East,UKC
+ENGLAND_North West,North West,UKD
+ENGLAND_Yorkshire and the Humber,Yorkshire and the Humber,UKE
+ENGLAND_East Midlands,East Midlands,UKF
+ENGLAND_West Midlands,West Midlands,UKG
+ENGLAND_East,East,UKH
+ENGLAND_London,London,UKI
+ENGLAND_South East,South East,UKJ
+ENGLAND_South West,South West,UKK
+OUTSIDE UK,Outside UK,UKZ
+Not Identifiable,Not identifiable,
+NON-REGIONAL,Non-regional,

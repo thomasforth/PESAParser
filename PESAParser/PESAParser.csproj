@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\CPI_inflation_Nov_2019.csv" />
+    <None Remove="Assets\CRA_2014_Combined_Database_for_Publication.xlsx" />
+    <None Remove="Assets\CRA_2018_Database_for_Publication_rvsd.xlsx" />
+    <None Remove="Assets\demo_r_d2jan_1_Data.csv" />
+    <None Remove="Assets\pesa2005_chapter8_tablesv3.xls" />
+    <None Remove="Assets\pesa_2010_database_tables_chapter10.xlsx" />
+    <None Remove="Assets\pesa_2010_database_tables_chapter9.xlsx" />
+    <None Remove="Assets\StandardFunctionNames.csv" />
+    <None Remove="Assets\StandardGeographyNames.csv" />
+    <None Remove="Assets\StandardSubfunctionNames.csv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\CPI_inflation_Nov_2019.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\CRA_2014_Combined_Database_for_Publication.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\CRA_2018_Database_for_Publication_rvsd.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\demo_r_d2jan_1_Data.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\pesa2005_chapter8_tablesv3.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\pesa_2010_database_tables_chapter10.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\pesa_2010_database_tables_chapter9.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\StandardFunctionNames.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\StandardGeographyNames.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\StandardSubfunctionNames.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="12.2.1" />
+    <PackageReference Include="ExcelDataReader" Version="3.6.0" />
+    <PackageReference Include="ExcelDataReader.DataSet" Version="3.6.0" />
+  </ItemGroup>
+
+</Project>
