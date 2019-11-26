@@ -3,7 +3,7 @@ Scripts to parse and combine multiples PESA (public expenditure statistical anal
 
 Code is in C# .NET Core 3. The .sln file will open in Visual Studio 2019 Community Edition and requires a number of NuGet packages for Excel reading and CSV writing.
 
-A PowerBI explorer of the data is available online at https://app.powerbi.com/view?r=eyJrIjoiZThiNWE2ZDYtZDQ4Ny00YTU4LWExYjItM2JiZDlkNGUwMDBjIiwidCI6IjU3NjE4NTlmLWVlNjMtNDc0ZS04NzQ2LTRkZGNjMGQzZTllNSJ9. The included .pbix file can also be opened in PowerBI for further manipulation.
+A (PowerBI explorer of the data is available online)[https://app.powerbi.com/view?r=eyJrIjoiZThiNWE2ZDYtZDQ4Ny00YTU4LWExYjItM2JiZDlkNGUwMDBjIiwidCI6IjU3NjE4NTlmLWVlNjMtNDc0ZS04NzQ2LTRkZGNjMGQzZTllNSJ9]. The included .pbix file can be opened in PowerBI for further manipulation.
 
 ## Sources
 I download PESA tables and CRA databases from the following URLs,
