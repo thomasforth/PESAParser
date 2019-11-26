@@ -3,7 +3,7 @@ Scripts to parse and combine multiples PESA (public expenditure statistical anal
 
 Code is in C# .NET Core 3. The .sln file will open in Visual Studio 2019 Community Edition and requires a number of NuGet packages for Excel reading and CSV writing.
 
-A (PowerBI explorer of the data is available online)[https://app.powerbi.com/view?r=eyJrIjoiZThiNWE2ZDYtZDQ4Ny00YTU4LWExYjItM2JiZDlkNGUwMDBjIiwidCI6IjU3NjE4NTlmLWVlNjMtNDc0ZS04NzQ2LTRkZGNjMGQzZTllNSJ9]. The included .pbix file can be opened in PowerBI for further manipulation.
+A [PowerBI explorer of the data is available online](https://app.powerbi.com/view?r=eyJrIjoiZThiNWE2ZDYtZDQ4Ny00YTU4LWExYjItM2JiZDlkNGUwMDBjIiwidCI6IjU3NjE4NTlmLWVlNjMtNDc0ZS04NzQ2LTRkZGNjMGQzZTllNSJ9). The included .pbix file can be opened in PowerBI for further manipulation.
 
 ## Sources
 I download PESA tables and CRA databases from the following URLs,
@@ -28,8 +28,8 @@ Tables in .csv format are used to standardised names and classifications that ch
 Output is a single CSV table `ParsedCombinedPESA.csv`. Beyond merging the input tables and standardising names, classifications, and units this includes the population of each region at the given year and the CPI index (2015 = 100) for the given year. The column `Value2015PerCapita` is calculated from this. Cumulative totals for each region, or group of regions as defined in the `GeographyGroupings.xlsx` file.
 
 ## License
-* I believe that all PESA tables and CRA databases included in this repository are licensed under the (UK Government Open Licence v3)[https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/].
+* I believe that all PESA tables and CRA databases included in this repository are licensed under the [UK Government Open Licence v3](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 * Additional data from Eurostat (population by year by UK region) is available under [The Eurostat Data Licence](https://ec.europa.eu/eurostat/about/policies/copyright).
-* Additional data from the ONS (CPI deflators) is available under the (UK Government Open Licence v3)[https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/].
+* Additional data from the ONS (CPI deflators) is available under the [UK Government Open Licence v3](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 * I license the derived datasets under the UK Government Open License v3 for simplicity, which I believe to be compatible with The Eurostat Data Licence.
-* The code is licensed under (The MIT License)[https://opensource.org/licenses/MIT].
+* The code is licensed under [The MIT License](https://opensource.org/licenses/MIT).
