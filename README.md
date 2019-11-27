@@ -1,6 +1,8 @@
 # PESAParser
 Scripts to parse and combine multiples PESA (public expenditure statistical analyses) and CRA (country and regional accounts) databases and tables into a single file. This gives a full picture of UK public spending using consistent geographies and definitions from 1999/2000 (YearEnd 2000) to 2017/18 (YearEnd 2018). 2018/19 data will be added shortly.
 
+Similar officially reconciled data is available from the ONS as Table S10 in the [Supplementary Tables to the Country and regional public sector finances:](https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/articles/countryandregionalpublicsectorfinances/financialyearending2018/relateddata).
+
 Code is in C# .NET Core 3. The .sln file will open in Visual Studio 2019 Community Edition and requires a number of NuGet packages for Excel reading and CSV writing.
 
 A [PowerBI explorer of the data is available online](https://app.powerbi.com/view?r=eyJrIjoiZThiNWE2ZDYtZDQ4Ny00YTU4LWExYjItM2JiZDlkNGUwMDBjIiwidCI6IjU3NjE4NTlmLWVlNjMtNDc0ZS04NzQ2LTRkZGNjMGQzZTllNSJ9). The included .pbix file can be opened in PowerBI for further manipulation.
