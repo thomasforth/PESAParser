@@ -16,7 +16,6 @@ https://webarchive.nationalarchives.gov.uk/20101128151454/http://www.hm-treasury
 https://www.gov.uk/government/statistics/country-and-regional-analysis-2014.
 * 2014 to 2018 data is available in database form (Excel format) at
 https://www.gov.uk/government/statistics/country-and-regional-analysis-2018.
-* 2019 data is currently available in table form at https://www.gov.uk/government/statistics/public-expenditure-statistical-analyses-2019. This requires a new parsing technique as the publication format has changed from Excel (.xls or .xlsx) to ODS and will take some time to incorporate. I am hopeful that a database form (Excel format or ODS format) of the same data will be released shortly.
 
 Where data is available for the same year more than once it is taken from the most recent source.
 
