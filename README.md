@@ -7,6 +7,9 @@ Code is in C# .NET Core 3. The .sln file will open in Visual Studio 2019 Communi
 
 A [PowerBI explorer of the data is available online](https://app.powerbi.com/view?r=eyJrIjoiZThiNWE2ZDYtZDQ4Ny00YTU4LWExYjItM2JiZDlkNGUwMDBjIiwidCI6IjU3NjE4NTlmLWVlNjMtNDc0ZS04NzQ2LTRkZGNjMGQzZTllNSJ9). The included .pbix file can be opened in PowerBI for further manipulation.
 
+## Why?
+This data and analysis powers tools online at https://odileeds.org/projects/jrf/.
+
 ## Sources
 I download PESA tables and CRA databases from the following URLs,
 * Data is available for 1998 to 1999 at
