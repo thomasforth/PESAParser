@@ -19,9 +19,10 @@ https://webarchive.nationalarchives.gov.uk/20101128151454/http://www.hm-treasury
 * 2005 to 2010 datais available in database form (Excel format) at https://www.gov.uk/government/statistics/country-and-regional-analysis-2010.
 * 2010 to 2014 datais available in database form (Excel format)at
 https://www.gov.uk/government/statistics/country-and-regional-analysis-2014.
-* 2014 to 2018 data is available in database form (Excel format) at
+* 2014 to 2018 data is available in database form (Excel format) at 
 https://www.gov.uk/government/statistics/country-and-regional-analysis-2018.
-
+* 2015 to 2019 data is available in database form (Excel format) at
+https://www.gov.uk/government/statistics/country-and-regional-analysis-2019
 Where data is available for the same year more than once it is taken from the most recent source.
 
 Additional data is from the ONS (CPI deflators) and Eurostat (population by year by UK region).
