@@ -17,6 +17,8 @@ https://webarchive.nationalarchives.gov.uk/20101118111127/http://www.hm-treasury
 * 2000 to 2005 data is available in Excel table form at 
 https://webarchive.nationalarchives.gov.uk/20101128151454/http://www.hm-treasury.gov.uk/pespub_index.htm. We use the 2005 spreadsheet and parse the relevant tables.
 * 2005 to 2010 data is available in database form (Excel format) at https://www.gov.uk/government/statistics/country-and-regional-analysis-2010.
+* 2008 to 2012 data is available in database form (Excel format) at
+https://www.gov.uk/government/statistics/national-statistics-release-october-2012. As far as I know, this is the first release to include HMT Subfunction, capital and current spending separately, and regional breakdowns for England.
 * 2010 to 2014 data is available in database form (Excel format) at
 https://www.gov.uk/government/statistics/country-and-regional-analysis-2014.
 * 2014 to 2018 data is available in database form (Excel format) at 
@@ -25,7 +27,8 @@ https://www.gov.uk/government/statistics/country-and-regional-analysis-2018.
 https://www.gov.uk/government/statistics/country-and-regional-analysis-2019
 Where data is available for the same year more than once it is taken from the most recent source.
 
-Very detailed spending by region (for example, transport broken down into local roads, national roads, local public transport, railways, etc...) is not aggregated into CRA databases before 2014. It can be extracted from table (usually 8.19 or 9.19) of the single year PESA tables linked to from https://webarchive.nationalarchives.gov.uk/20101128151454/http://www.hm-treasury.gov.uk/pespub_index.htm.
+Very detailed spending by region (for example, transport broken down into local roads, national roads, local public transport, railways, etc...) is not aggregated into CRA databases before 2014. It can be extracted from table (usually 8.19 or 9.19) of the single year PESA tables linked to from https://webarchive.nationalarchives.gov.uk/20101128151454/http://www.hm-treasury.gov.uk/pespub_index.htm but this does not contain capital and current splits.
+
 
 Additional data is from the ONS (CPI deflators) and Eurostat (population by year by UK region).
 
