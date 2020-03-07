@@ -16,8 +16,8 @@ I download PESA tables and CRA databases from the following URLs,
 https://webarchive.nationalarchives.gov.uk/20101118111127/http://www.hm-treasury.gov.uk/pespub_pesa03.htm but there is no capital and current split in spending making this data difficult to 
 * 2000 to 2005 data is available in Excel table form at 
 https://webarchive.nationalarchives.gov.uk/20101128151454/http://www.hm-treasury.gov.uk/pespub_index.htm. We use the 2005 spreadsheet and parse the relevant tables.
-* 2005 to 2010 datais available in database form (Excel format) at https://www.gov.uk/government/statistics/country-and-regional-analysis-2010.
-* 2010 to 2014 datais available in database form (Excel format)at
+* 2005 to 2010 data is available in database form (Excel format) at https://www.gov.uk/government/statistics/country-and-regional-analysis-2010.
+* 2010 to 2014 data is available in database form (Excel format) at
 https://www.gov.uk/government/statistics/country-and-regional-analysis-2014.
 * 2014 to 2018 data is available in database form (Excel format) at 
 https://www.gov.uk/government/statistics/country-and-regional-analysis-2018.
