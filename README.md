@@ -25,6 +25,8 @@ https://www.gov.uk/government/statistics/country-and-regional-analysis-2018.
 https://www.gov.uk/government/statistics/country-and-regional-analysis-2019
 Where data is available for the same year more than once it is taken from the most recent source.
 
+Very detailed spending by region (for example, transport broken down into local roads, national roads, local public transport, railways, etc...) is not aggregated into CRA databases before 2014. It can be extracted from table (usually 8.19 or 9.19) of the single year PESA tables linked to from https://webarchive.nationalarchives.gov.uk/20101128151454/http://www.hm-treasury.gov.uk/pespub_index.htm.
+
 Additional data is from the ONS (CPI deflators) and Eurostat (population by year by UK region).
 
 Tables in .csv format are used to standardised names and classifications that change across releases of the PESA tables. Specifically these are `StandardFunctionNames.csv`, `StandardGeographyNames.csv`, and `StandardSubfunctionNames.csv`.
