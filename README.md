@@ -1,7 +1,7 @@
 # PESAParser
-Scripts to parse and combine multiples PESA (public expenditure statistical analyses) and CRA (country and regional accounts) databases and tables into a single file. This gives a full picture of UK public spending using consistent geographies and definitions from 1999/2000 (YearEnd 2000) to 2017/18 (YearEnd 2018). 2018/19 data will be added shortly.
+Scripts to parse and combine multiples PESA (public expenditure statistical analyses) and CRA (country and regional accounts) databases and tables into a single file. This gives a full picture of UK public spending using consistent geographies and definitions from 1997/98 (YearEnd 1998) to 2018/19 (YearEnd 2019).
 
-Similar officially reconciled data is available from the ONS as Table S10 in the [Supplementary Tables to the Country and regional public sector finances:](https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/articles/countryandregionalpublicsectorfinances/financialyearending2018/relateddata).
+Similar officially reconciled data is available from the ONS as Table S10 in the [Supplementary Tables to the Country and regional public sector finances:](https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/articles/countryandregionalpublicsectorfinances/financialyearending2018/relateddata) though only higher levels of spending are included here. This work retains data on spending by sub-function.
 
 Code is in C# .NET Core 3. The .sln file will open in Visual Studio 2019 Community Edition and requires a number of NuGet packages for Excel reading and CSV writing.
 
@@ -28,7 +28,6 @@ https://www.gov.uk/government/statistics/country-and-regional-analysis-2019
 Where data is available for the same year more than once it is taken from the most recent source.
 
 Very detailed spending by region (for example, transport broken down into local roads, national roads, local public transport, railways, etc...) is not aggregated into CRA databases before 2014. It can be extracted from table (usually 8.19 or 9.19) of the single year PESA tables linked to from https://webarchive.nationalarchives.gov.uk/20101128151454/http://www.hm-treasury.gov.uk/pespub_index.htm but this does not contain capital and current splits.
-
 
 Additional data is from the ONS (CPI deflators) and Eurostat (population by year by UK region).
 
